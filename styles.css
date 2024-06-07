@@ -3,7 +3,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
-    outline: 2px solid red;
+    /*outline: 2px solid red;*/
 
 }
 
@@ -25,13 +25,32 @@
     color:white;
 }
 
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:visited {
+    text-decoration-color: lightgray;
+}
+
+a:hover {
+    color: black;
+    background-color:silver;
+}
+
 .navbar-right{
     display: flex;
     width: 50%;
     justify-content: center;
     text-align: center;
-    color: lightgray;
 }
+
+.link-header {
+    margin-right: 2%;
+}
+
+
 
 .content {
     display: flex;
@@ -43,7 +62,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    margin: 10%;
 }
 
 .title-heading {
@@ -55,7 +75,7 @@
 }
 
 .signup {
-
+    width: 85px;
 }
 
 .title-image {
