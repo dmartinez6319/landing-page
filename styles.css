@@ -148,7 +148,8 @@ a:hover {
     width: 200px;
     height: 200px;
     outline-width: 2px;
-    outline-color:aquamarine;
+    outline-color:black;
+    outline-style: solid;
 }
 
 .sect3 {
@@ -207,4 +208,13 @@ a:hover {
 
 #notify-signup {
     outline-color: white;
+    outline-width: 2px;
+    outline-style: solid;
+}
+
+.sect5 {
+    background-color: slategray;
+    color: white;
+    padding: 25px;
+    text-align: center;
 }
