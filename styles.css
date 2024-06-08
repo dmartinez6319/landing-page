@@ -9,7 +9,6 @@
 
 .sect1 {
     background-color: slategrey;
-
 }
 
 .navbar {
@@ -55,15 +54,21 @@ a:hover {
 .content {
     display: flex;
     flex-direction: row;
-    margin: 50px;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .title {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-content: space-evenly;
-    margin: 10%;
+
+    
+}
+
+#title-item {
+    margin-bottom: 10px;
 }
 
 .title-heading {
@@ -76,6 +81,16 @@ a:hover {
 
 .signup {
     width: 85px;
+    height: 35px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.signup:hover{
+    background-color: aquamarine;
+    color: black;
 }
 
 .title-image {
@@ -83,4 +98,51 @@ a:hover {
     justify-content: center;
     align-items: column;
     margin: 50px;
+}
+
+.sect2 {
+    float: left;
+    align-content: center;
+    justify-content: center;
+    background-color: grey;
+    height: 500px
+
+}
+
+.sect2-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    margin-bottom: 30px;
+    color:rgb(131, 1, 1);
+}
+
+.sect2-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+
+.sect2-content-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtext {
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.sect2-image{
+    border-radius: 10px;
+    width: 200px;
+    outline-width: 2px;
+    outline-color:aquamarine;
 }
